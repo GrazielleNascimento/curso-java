@@ -39,7 +39,7 @@ public class NextLine {
 
         sc.nextLine();
 
-        s1 = sc.nextLine();
+     /*   s1 = sc.nextLine();
         s2 = sc.nextLine();
         s3 = sc.nextLine();
 
@@ -47,7 +47,7 @@ public class NextLine {
         System.out.println(x);
         System.out.println(s1);
         System.out.println(s2);
-        System.out.println(s3);
+        System.out.println(s3);*/
 
     }
     }
