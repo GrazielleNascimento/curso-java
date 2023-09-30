@@ -28,13 +28,13 @@ public class Todas {
         double z;
         
         
-        x = sc.next();
+       // x = sc.next();
         y = sc.nextInt();
         z = sc.nextDouble();
         
         System.out.println("Dados digitados: ");
         
-        System.out.println(x);
+     //   System.out.println(x);
         System.out.println(y);
         System.out.println(z);
             
