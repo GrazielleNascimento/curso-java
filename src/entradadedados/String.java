@@ -21,10 +21,10 @@ public class String {
         //EXEMPLO STRING   valor de entrada na variavel  sc.next()
         Scanner sc = new Scanner(System.in);
 
-        String x 
-        x  = sc.next();
+     /*   String x 
+        x  = sc.next();*/
 
-        System.out.println("voce digitou: " + x);
+       // System.out.println("voce digitou: " + x);
 
         sc.close();
 
