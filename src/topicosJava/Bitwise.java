@@ -1,4 +1,4 @@
-package bitwise;
+package topicosJava;
 
 import java.util.Scanner;
 
