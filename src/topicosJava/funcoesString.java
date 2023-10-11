@@ -15,6 +15,7 @@ public class funcoesString {
         String s03 = original.trim(); //remove os espacos mantem a mesma formatacao
         String s04 = original.substring(2); // mostrar apartir do c caracter  da segunda posicao em diante nesse caso vai ser o "c"
         String s05 = original.substring(2, 9); // inicio na posicao 2 com limite ate  a posicao 9
+        String s06 = original.replace('a', 'x'); // troca caracter
 
         System.out.println("original: -" + original + "-");
 
@@ -23,6 +24,7 @@ public class funcoesString {
         System.out.println("trim: -" + s03 + "-");
         System.out.println("substring(2): -" + s04 + "-");
         System.out.println("substring(2, 9): -" + s05 + "-");
+        System.out.println("replace('a', 'x'): -" + s06 + "-");
 
     }
 
