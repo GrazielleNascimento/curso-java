@@ -17,6 +17,8 @@ public class funcoesString {
         String s05 = original.substring(2, 9); // inicio na posicao 2 com limite ate  a posicao 9
         String s06 = original.replace('a', 'x'); // troca caracter
         String s07 = original.replace("abc", "xy");// trocar substring
+        int i = original.indexOf("bc"); //descobrir a posicao de primeira ocorrencia (aparicao)
+        int j = original.lastIndexOf("bc"); // descobrir a ultima ocorrencia
 
         System.out.println("original: -" + original + "-");
 
@@ -27,6 +29,8 @@ public class funcoesString {
         System.out.println("substring(2, 9): -" + s05 + "-");
         System.out.println("replace('a', 'x'): -" + s06 + "-");
         System.out.println("replace('abc', 'xy'): -" + s07 + "-");
+        System.out.println("Index of 'bc': " + i);
+        System.out.println("Last index of 'bc': " + j);
 
     }
 
