@@ -12,9 +12,9 @@ public class Aplic {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        
-        Product  product = new Product();
-        
+
+        Product product = new Product();
+
         System.out.println("Enter Product data: ");
         System.out.print("Name: ");
         product.name = sc.next();
@@ -22,12 +22,11 @@ public class Aplic {
         product.price = sc.nextDouble();
         System.out.print("Quantity in stock: ");
         product.quantity = sc.nextInt();
-        
-        System.out.println(product.name +  ","  + product.price + ","  + product.quantity );
-        
-        sc.close();
-        
 
-        }
+        System.out.println(product);
+
+        sc.close();
+
+    }
 
 }
