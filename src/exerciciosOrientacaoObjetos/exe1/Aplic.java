@@ -1,5 +1,6 @@
-package exerciciosOrientacaoObjetos;
+package exerciciosOrientacaoObjetos.exe1;
 
+import exerciciosOrientacaoObjetos.exe1.Rectangle;
 import java.util.Locale;
 import java.util.Scanner;
 

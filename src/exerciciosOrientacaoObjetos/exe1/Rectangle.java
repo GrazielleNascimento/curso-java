@@ -1,5 +1,5 @@
 
-package exerciciosOrientacaoObjetos;
+package exerciciosOrientacaoObjetos.exe1;
 
 /**
  *
