@@ -20,7 +20,8 @@ public class Aplic {
         double price = sc.nextDouble();
         System.out.print("Quantity in stock: ");
         int quantity = sc.nextInt();
-
+        
+        //instanciacao do objeto
         Product product = new Product(name, price, quantity);
 
         System.out.println();
