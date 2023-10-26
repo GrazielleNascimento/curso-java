@@ -18,6 +18,7 @@ public class AplicArray {
         carros.add("Polo");
         carros.add("Cruze");
         carros.add(1,"Argo");
+        carros.add(1,"Fusion");// a ultima insercao tem maior preferencia agora o Argo nao esta mais na 1 posicao mas na segunda do arrayList
         
         for(String e:carros){
             System.out.println(e);
