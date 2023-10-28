@@ -23,9 +23,12 @@ public class Array {
         numeros[2] = 8;
         numeros[3] = 3;
         numeros[4] = 6;
- 
-        System.out.println(numeros[4]); // mostra o valor no Array da posicao informada
         
+       for(int num: numeros) {
+           System.out.println(num);// mostrar todos os valores do Array
+       }
+ 
+       
     }
     
 }
