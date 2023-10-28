@@ -14,8 +14,18 @@ public class CarrinhoDeCompras {
         carrinho.add(produto);
     }
 
-    public void removeProduto(Produto produto) {
-        carrinho.remove(produto);
+    public String removeProduto(String nome) {
+
+        for (Produto produto : carrinho) {
+            if (produto.getNome().equalsIgnoreCase(nome)) {
+                carrinho.remove(produto);
+
+               return "Produto removido com Sucesso...";
+            }
+            
+        }
+        return "Produto não encontrado";
+
     }
 
     public double totalPreco() {
