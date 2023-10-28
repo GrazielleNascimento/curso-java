@@ -14,16 +14,17 @@ public class Array {
  
     public static void main(String[] args) {
         
-        int n1 = 5;
-        
         int[] numeros;
-        numeros = new int[3];
+        int tamanhoArray = 5; //tamanho do array
+        numeros = new int[tamanhoArray];
         
         numeros[0] = 2;
-        
-        System.out.println(n1);// mostra apenas a variavel
-        
-        System.out.println(numeros[1]); // mostra o valor no Array da posicao informada
+        numeros[1] = 4;
+        numeros[2] = 8;
+        numeros[3] = 3;
+        numeros[4] = 6;
+ 
+        System.out.println(numeros[4]); // mostra o valor no Array da posicao informada
         
     }
     
